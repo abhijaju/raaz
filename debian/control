@@ -1,0 +1,13 @@
+Source: raaz
+Section: libs
+Priority: optional
+Maintainer: Abhimanyu Jaju <abhimanyujaju92@gmail.com>
+Build-Depends: debhelper (>= 9), haskell-platform, libghc-test-framework-dev, libghc-test-framework-hunit-dev, libghc-test-framework-quickcheck2-dev, libghc-cpu-dev, libghc-bytestring-dev, libghc-criterion-dev, libghc-cmdargs-dev, libghc-data-default-dev, libghc-entropy-dev, libghc-parsec3-dev, libghc-random-dev
+Standards-Version: 3.9.5
+Homepage: https://github.com/raaz-crypto/raaz
+
+Package: raaz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Cyptographic Haskell Library
+ Cyptographic Haskell Library
